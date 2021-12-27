@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/public
+/theme
+/.env.*
+/src/assets
+/src/icons
+
