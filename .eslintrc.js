@@ -22,7 +22,7 @@ module.exports = {
     */
     /*风格相关配置*/
     // 行尾使用分号
-    semi: [1, "always"],
+    semi: [2, "never"],
     // 禁用对象和数组字面量中使用结尾逗号
     "comma-dangle": [2, "never"],
     // 禁用行尾空格
