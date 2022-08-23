@@ -11,6 +11,7 @@
  + Markdow Preview Enhanced
  + Material Icon Theme
  + One Dark Pro
+ + Tokyo Night
  + Volar (vue3)
 
 ### 配置文件
