@@ -18,10 +18,54 @@
 ---
 #### vscode settings.json
   ```
-    "editor.formatOnSave": false,"editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true},"eslint.validate": ["javascript",
+    {
+  "editor.fontFamily": "Fira Code",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.path": "D:Gitcmdgit.exe",
+  "fileheader.customMade": {
+    //此为头部注释
+    "Description": "",
+    "Date": "Do not edit",
+    "LastEditTime": "Do not edit"
+  },
+  "fileheader.cursorMode": {
+    //此为函数注释
+    "description": "",
+    "param": "",
+  },
+  "fileheader.configObj": {
+    "autoAdd": true, // 默认开启自动添加头部注释，当文件没有设置头部注释时保存会自动添加
+    "autoAlready": true, // 默认开启
+    "prohibitAutoAdd": [
+      "json",
+      "md"
+    ], // 禁止.json .md文件，自动添加头部注释
+    "wideSame": false, // 设置为true开启
+    "wideNum": 13 // 字段长度 默认为13
+  },
+  "editor.lineHeight": 30,
+  "workbench.editor.enablePreview": false,
+  "git.autofetch": true,
+  "gitlens.defaultDateFormat": null,
+  "gitlens.defaultDateShortFormat": null,
+  "git.enableSmartCommit": true,
+  "gitlens.views.branches.files.layout": "list",
+  "gitlens.views.branches.avatars": false,
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
     "javascriptreact",
-    "vue-html",]
+    "vue-html"
+  ],
+  "editor.definitionLinkOpensInPeek": true,
+  "volar.codeLens.pugTools": true,
+  "volar.codeLens.scriptSetupTools": true
+}
   ```
 ### .editorconfig
 > 统一不同ide编码风格，针对缩进 换行 空格
