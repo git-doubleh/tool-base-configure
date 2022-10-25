@@ -1,5 +1,5 @@
 # .eslint.js 规则配置
-```
+```js
 module.exports = {
   root: true,
 

@@ -18,7 +18,7 @@
 ### 配置文件
 ---
 #### vscode settings.json
-  ```
+  ```js
     {
   "editor.fontFamily": "Fira Code",
   "workbench.iconTheme": "material-icon-theme",

@@ -1,6 +1,6 @@
 # .prettier.js 规则配置
 
-```
+```js
 module.exports = {
   tabWidth: 2,
   semi: false,
