@@ -8,8 +8,8 @@
 ## index.js
 > 工具类方法
 
-## settings.md
+## vscode-settings.json
 > vscode配置相关
 
-## WEB规范.md
-> 规范文档
+## prettierrc
+> prettierrc规范
