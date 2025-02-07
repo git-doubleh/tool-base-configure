@@ -1,0 +1,6 @@
+$design-width: 750;
+$per-vw: $design-width / 100;
+
+@function px2vw($param) {
+  @return $param / $per-vw + 'px';
+}
