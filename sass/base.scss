@@ -1,0 +1,19 @@
+$design-width: 750;
+$per-vw: $design-width / 100;
+
+// 单位适配转换
+@function px2vw($param) {
+  @return $param / $per-vw + 'px';
+}
+// 边框图片自适应函数
+@mixin borderImg($url) {
+    border-image-source: $url;
+    border-image-slice: 0 0 0 0 fill;
+    border-image-repeat: round;
+}
+// 文字渐变填充
+@mixin fillTextColor($color: linear-gradient(180deg, #F5FCFF 0%, #64D3EB 100%)) {
+    background: $color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
