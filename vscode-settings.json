@@ -1,6 +1,8 @@
 {
   "editor.fontFamily": "Fira Code",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 45,
   "fileheader.customMade": {
     //此为头部注释
     "Description": "",
